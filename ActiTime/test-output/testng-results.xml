@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matching and matching title isactiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[the element is matching]]>
+    </line>
+  </reporter-output>
+  <suite name="Failed suite [Suite]" duration-ms="18657" started-at="2020-10-05T06:42:34Z" finished-at="2020-10-05T06:42:52Z">
+    <groups>
+    </groups>
+    <test name="Test(failed)" duration-ms="18657" started-at="2020-10-05T06:42:34Z" finished-at="2020-10-05T06:42:52Z">
+      <class name="Com_ActiTime__Test.VerifyVersionTest">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:Com_ActiTime__Test.VerifyVersionTest@29774679]" name="preCondition" is-config="true" duration-ms="15156" started-at="2020-10-05T06:42:34Z" finished-at="2020-10-05T06:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="FAIL" signature="verifyVersion()[pri:3, instance:Com_ActiTime__Test.VerifyVersionTest@29774679]" name="verifyVersion" duration-ms="2679" started-at="2020-10-05T06:42:49Z" finished-at="2020-10-05T06:42:52Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Version 2020] but found [actiTIME 2020 Online]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Version 2020] but found [actiTIME 2020 Online]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at Com_ActiTime__Test.VerifyVersionTest.verifyVersion(VerifyVersionTest.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching and matching title isactiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[the element is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyVersion -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:Com_ActiTime__Test.VerifyVersionTest@29774679]" name="postCondition" is-config="true" duration-ms="765" started-at="2020-10-05T06:42:52Z" finished-at="2020-10-05T06:42:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyVersion status=FAILURE method=VerifyVersionTest.verifyVersion()[pri:3, instance:Com_ActiTime__Test.VerifyVersionTest@29774679] output=Title is matching and matching title isactiTIME - Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- Com_ActiTime__Test.VerifyVersionTest -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>

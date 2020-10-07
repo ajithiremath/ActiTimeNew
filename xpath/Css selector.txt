@@ -1,0 +1,96 @@
+1-sep-2020
+CSS Selector: Facebook
+________________________________________
+
+1.FirstName
+a)	input[id='u_1_b']
+b)	input[name=’firstname’]
+c)	input[aria-label="First name"]
+d)	input[tabindex="0"]
+
+2.SurName
+a)	input[id="u_1_d"]
+b)	input[name="lastname"]
+c)	input[aria-label="Surname"]
+
+.3.Mobile Number
+a)	input[id="u_1_g"]
+b)	input[name="reg_email__"]
+c)	input[aria-label="Mobile number or email address"]
+
+.3.New Password
+a)	input[id="password_step_input"]
+b)	input[data-type="password"]
+c)	input[autocomplete="new-password"]
+d)	input[name="reg_passwd__"]
+e)	input[aria-label="New password"]
+f)	input[aria-describedby="js_1"]
+g)	input[aria-invalid="true"]
+
+4.Day
+a)	select[id="day"]
+b)	select[aria-label="Day"]
+c)	select[name="birthd"]
+d)	select[title="Day"]
+e)	select[ay_day=""]
+
+5.Month
+a)	select[id="month"]
+b)	select[aria-label="Month"]
+c)	select[name="birthday_month"]
+d)	select[title="Month"]
+
+6.Year
+a)	select[id="year"]
+b)	select[aria-label=" year "]
+c)	select[name="birthday_ year "]
+d)	select[title=" year "]
+
+7.Femal
+a)	label[for="u_1_4"]
+
+8.Male
+a)	label[for="u_1_5"]
+
+9.Custom
+a)	label[for="u_1_6"]
+
+10.Select your pronoun
+a)	select[id="js_2"]
+b)	select[class="_7-16 _5dba"]
+c)	select[aria-label="Select your pronoun"]
+d)	select[name="preferred_pronoun"]
+
+11.Gender Option
+a)	input[id="u_1_q"]
+b)	input[name="custom_gender"]
+c)	input[aria-label="Gender (optional)"]
+
+12.Signup
+a)	button[id="u_1_s"]
+b)	button[class="_6j mvm _6wk _6wl _58mi _3ma _6o _6v"]
+c)	button[name="websubmit"]
+
+--------------------------------------------------------------------------------------------------------------------
+A=html/body/div[1]/input[1]
+B=html/body/div[1]/input[2]
+C=html/body/div[2]/input[1]
+D=html/body/div[2]/input[1]
+AB=html/body/div[1]/input
+CD=html/body/div[2]/input
+AC=html/body/div[1]/input[1]|html/body/div[2]/input[1]
+AD=html/body/div[1]/input[1]|html/body/div[2]/input[2]
+A
+
+
+
+
+
+
+
+
+
+
+
+
+
